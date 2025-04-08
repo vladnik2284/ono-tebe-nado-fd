@@ -97,7 +97,6 @@ body {
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 165px;
-  letter-spacing: .3em;
 }
 
 .aligned-text {
@@ -248,8 +247,8 @@ body {
 }
 
 .about__logo {
-  width: 240px; 
-  height: 240px; 
+  width: 240px;
+  height: 240px;
   border-radius: 50%; 
   background: black;
   margin-left: 47px;
@@ -303,7 +302,7 @@ body {
   line-height: 24.3px;
 }
 
-.footer__menu  {
+.footer__menu {
   list-style: none;
   text-align: center;
 }
