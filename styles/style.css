@@ -46,7 +46,6 @@ body {
   width: 100%;
   height: 757px;
   margin-bottom: 180px;
-  background-color:aqua;
   position: relative;
   display: flex;
   align-items: end;
@@ -57,7 +56,6 @@ body {
 
 .lots {
   width: 1052px;
-  /*height: 723px;*/
   margin: 0px 24px 120px 24px;
   background-color:beige;
 }
@@ -66,13 +64,11 @@ body {
   width: 1052px;
   height: 595px;
   margin-bottom: 180px;
-  background-color:blueviolet;
   font-family: Raleway;
   display: grid;
   grid-template-columns: 334px 1fr;
   margin-left: auto;
   margin-right: auto;
-  /*align-items: center;*/
 }
 
 .overlay {
@@ -106,8 +102,6 @@ body {
 
 .aligned-text {
   display: block;
-  line-height: 115px;
-
 }
 
 .aligned-text_center {
@@ -136,7 +130,6 @@ body {
 }
 
 .cover__description-text {
-  width: 637px;
   font-family: Raleway;
   font-weight: 400;
   font-size: 22px;
@@ -144,9 +137,11 @@ body {
   letter-spacing: 110%;
   text-transform: uppercase;
   word-spacing: 19px;
+   width: 637px;
 }
 
 .batton_cover {
+  text-transform: uppercase;
   background:transparent;
   font-weight: 500;
   font-size: 22px;
@@ -158,7 +153,6 @@ body {
   left: 794px;
   border-width: 1px;
   border-style: solid;
-  text-transform: uppercase;
 }
 .lots__heading {
   font-size: 40px;
@@ -288,8 +282,6 @@ body {
 }
 
 .about__column {
-  /*width: 693px;*/
-  /*height: 449px;*/
   margin-top: 144px;
   margin-left: 25px;
 }
