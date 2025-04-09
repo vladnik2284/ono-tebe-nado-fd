@@ -103,14 +103,18 @@ body {
 
 .aligned-text_center {
   display: block;
-  padding-left: 330.5px;
+  text-align: center;
   padding-top: 20px;
 }
 
 .aligned-text_right {
   display: block;
-  padding-left: 613px;
+  text-align: right;
   padding-top: 20px;
+}
+
+.no-letter-spacing { /* Обнуление отступа последней буквы, не понятно как это работает*/
+  letter-spacing: 0;
 }
 
 .cover__description {
@@ -276,6 +280,7 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
+  padding-bottom: 5px;
 }
 
 .about__column {
