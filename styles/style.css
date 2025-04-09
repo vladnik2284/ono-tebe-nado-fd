@@ -10,17 +10,18 @@ body {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 93px 50px 96px 50px;
+  padding: 93px 50px 91px 50px;
 }
 
 .header__logo {
   width: 148px;
   height: 105px;
+  margin-top: 5px;
 }
 
 .menu_header {
   display: flex;
-  column-gap: 9px;
+  column-gap: 33px;
 }
 
 .header__links-list-item {
