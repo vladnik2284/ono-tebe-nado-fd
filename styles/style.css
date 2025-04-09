@@ -37,9 +37,10 @@ body {
   all: unset; /* Все стили элемента сбрасываются в ноль. */
   max-width: 240px;
   font-family: Raleway;
-  padding-left: 184px;
+  padding-left: 187px;
   font-weight: 400;
   line-height: 24.3px;
+  pad
 }
 
 .cover {
@@ -297,6 +298,7 @@ body {
   align-content: start;
   padding-left: 50px;
   padding-right: 50px;
+  padding-top: 3px;
 }
 
 .footer_address {
