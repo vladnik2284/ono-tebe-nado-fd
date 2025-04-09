@@ -27,6 +27,7 @@ body {
 .header__links-list-item {
   list-style: circle;
   height: 22px;
+  text-underline-position: under;
 }
 
 .header__links-list-item_no-bullit {
@@ -89,7 +90,7 @@ body {
 .cover__title {
   font-size: 100px;
   color: white;
-  letter-spacing: calc(1em / 3);
+  letter-spacing: 30px;
   line-height: 115px;
   font-weight: 700;
   text-transform: uppercase;
@@ -314,6 +315,10 @@ body {
 
 .footer__menu-link_active {
   text-decoration: none;
+}
+
+.footer__menu-list-item {
+  text-underline-position: under;
 }
 
 .footer__social-icon {
