@@ -35,10 +35,12 @@ body {
 }
 
 .header_address {
-  all: unset; /* Все стили элемента сбрасываются в ноль. */
   max-width: 240px;
-  font-family: Raleway;
   justify-self: end;
+}
+
+.addreas_common {
+  font-family: Raleway;
   font-weight: 400;
   line-height: 24.3px;
 }
@@ -293,13 +295,6 @@ body {
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 5px;
-}
-
-.footer_address {
-  all: unset; /* Все стили элемента сбрасываются в ноль. */
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: 24.3px;
 }
 
 .footer__menu {
