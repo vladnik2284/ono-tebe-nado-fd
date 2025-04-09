@@ -216,6 +216,9 @@ body {
   font-family: Raleway;
   line-height: 120%;
   text-transform: uppercase;
+  text-decoration:underline;
+  text-decoration-style:solid;
+  text-underline-position: under;
   color: white;
   margin-top: 48px;
   margin-bottom: 30px;
