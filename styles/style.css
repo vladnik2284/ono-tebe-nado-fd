@@ -35,7 +35,6 @@ body {
 }
 
 .header_address {
-  max-width: 240px;
   justify-self: end;
 }
 
@@ -43,17 +42,7 @@ body {
   font-family: Raleway;
   font-weight: 400;
   line-height: 24.3px;
-}
-
-.cover {
-  height: 757px;
-  margin-bottom: 180px;
-  position: relative;
-  display: flex;
-  align-items: end;
-  background-image: url('../images/cover.jpg');
-  background-size: cover;
-  background-position: center;
+  max-width: 240px;
 }
 
 .lots {
@@ -63,7 +52,7 @@ body {
 
 .about {
   width: 1052px;/*если убрать, то почему то едет верстка*/
-  margin-bottom: 170px;
+  margin-bottom: 180px;
   font-family: Raleway;
   display: grid;
   grid-template-columns: 334px 1fr;
@@ -81,6 +70,18 @@ body {
   background-color: rgb(0 0 0/.6 );
 }
 
+.cover {
+  margin-bottom: 180px;
+  position: relative;
+  background-image: url('../images/cover.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 165px;
+  padding-bottom: 50px;
+}
+
 .cover__title {
   font-size: 100px;
   color: white;
@@ -88,9 +89,8 @@ body {
   line-height: 115px;
   font-weight: 700;
   text-transform: uppercase;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 165px;
+  position: relative;
+  z-index: 1;
 }
 
 .aligned-text {
@@ -115,14 +115,12 @@ body {
 
 .cover__description {
   display: flex;
-  width: 100%;
   justify-content: space-between;
   align-items: center;
   color: white;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-bottom: 50px;
   z-index: 10;
+  position: relative;
+  margin-top: 106px;
 }
 
 .cover__description-text {
@@ -278,7 +276,14 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  padding-bottom: 5px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 24px;
+}
+
+.about__text_padding {
+  padding-bottom: 0;
 }
 
 .about__column {
@@ -287,14 +292,12 @@ body {
 }
 
 .footer {
-  width: 1100px;
-  height: 180px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-content: start;
   padding-left: 50px;
   padding-right: 50px;
-  padding-top: 5px;
+  padding-bottom: 50px;
 }
 
 .footer__menu {
