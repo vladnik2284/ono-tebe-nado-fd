@@ -51,13 +51,12 @@ body {
 }
 
 .about {
-  width: 1052px;/*если убрать, то почему то едет верстка*/
   margin-bottom: 180px;
   font-family: Raleway, sans-serif;
   display: grid;
   grid-template-columns: 334px 1fr;
-  margin-left: auto;
-  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .overlay {
@@ -177,25 +176,19 @@ body {
 
 .card_type_film {
   background-image: url('../images/card-lot-01.jpg');
-  /* background-size: cover;
-  background-position: center; */
   position: relative;
 }
 
 .card_type_book {
   background-image: url('../images/card-lot-02.jpg');
-  /* background-size: cover;
-  background-position: center; */
 }
 
 .card_type_picture {
   background-image: url('../images/card-lot-03.jpg');
-  /* background-size: cover;
-  background-position: center; */
 }
 
 .card {
-  height: 596px; /*едет карточка*/
+  min-height: 596px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -203,7 +196,6 @@ body {
 }
 
 .card__title {
-  /* height: 110px; */
   font-weight: 700;
   font-size: 22px;
   font-family: Raleway, sans-serif;
