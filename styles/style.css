@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
@@ -39,7 +39,7 @@ body {
 }
 
 .addreas_common {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   line-height: 24.3px;
   max-width: 240px;
@@ -53,7 +53,7 @@ body {
 .about {
   width: 1052px;/*если убрать, то почему то едет верстка*/
   margin-bottom: 180px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   display: grid;
   grid-template-columns: 334px 1fr;
   margin-left: auto;
@@ -100,13 +100,13 @@ body {
 .aligned-text_center {
   display: block;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 20px; /*все правильно по комментарием ревбюера все едет*/
 }
 
 .aligned-text_right {
   display: block;
   text-align: right;
-  padding-top: 20px;
+  padding-top: 20px; /*все правильно по комментарием ревбюера все едет*/
 }
 
 .no-letter-spacing { /* Обнуление отступа последней буквы, не понятно как это работает*/
@@ -124,7 +124,7 @@ body {
 }
 
 .cover__description-text {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 28px;
@@ -153,7 +153,6 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   width: 121px;
-  height: 47px;
   display: flex;
   margin-bottom: 27px;
   margin-left: 40px;
@@ -178,25 +177,25 @@ body {
 
 .card_type_film {
   background-image: url('../images/card-lot-01.jpg');
-  background-size: cover;
-  background-position: center;
+  /* background-size: cover;
+  background-position: center; */
   position: relative;
 }
 
 .card_type_book {
   background-image: url('../images/card-lot-02.jpg');
-  background-size: cover;
-  background-position: center;
+  /* background-size: cover;
+  background-position: center; */
 }
 
 .card_type_picture {
   background-image: url('../images/card-lot-03.jpg');
-  background-size: cover;
-  background-position: center;
+  /* background-size: cover;
+  background-position: center; */
 }
 
 .card {
-  height: 596px;
+  height: 596px; /*едет карточка*/
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -204,10 +203,10 @@ body {
 }
 
 .card__title {
-  height: 110px;
+  /* height: 110px; */
   font-weight: 700;
   font-size: 22px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   line-height: 120%;
   text-transform: uppercase;
   text-decoration:underline;
@@ -237,7 +236,7 @@ body {
   line-height: 100%;
   font-weight: 400;
   padding-left: 40px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
 }
 
 .card-link {
@@ -263,7 +262,7 @@ body {
 }
 
 .about__title {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
@@ -272,7 +271,7 @@ body {
 }
 
 .about__text {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
