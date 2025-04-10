@@ -10,7 +10,7 @@ body {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 87px 50px 91px 50px;
+  padding: 87px 50px 92px 50px;
   background-color: brown;
 }
 
@@ -41,6 +41,8 @@ body {
 
 .addreas_common {
   font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
   font-weight: 400;
   line-height: 24.3px;
   max-width: 240px;
@@ -177,15 +179,21 @@ body {
 
 .card_type_film {
   background-image: url('../images/card-lot-01.jpg');
+  background-size: cover;
+  background-position: center;
   position: relative;
 }
 
 .card_type_book {
   background-image: url('../images/card-lot-02.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .card_type_picture {
   background-image: url('../images/card-lot-03.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .card {
